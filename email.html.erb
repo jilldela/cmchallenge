@@ -1,0 +1,6 @@
+<h1>You have an order!</h1>
+<p>Order ID: <%= @order.orderID %></p>
+
+<h3>license key: <%= @req.params["licenseKey"] %></h3>
+
+<a href="mailto:<%= @user.emailAddress %>">mail license key to customer</a>
