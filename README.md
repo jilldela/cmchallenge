@@ -48,11 +48,14 @@ Run following command from root of project folder:
 ruby server.rb
 ```
 
-I chose to use the Rack gem as a server. It is a modular webserver interface that nicely wraps HTTP requests and responses so that I was able to modify them in Ruby as needed.
+### Gems Used
+
+I used the Rack gem as a server. It is a modular webserver interface that nicely wraps HTTP requests and responses so that I was able to modify them in Ruby as needed.
+
+I wrote unit tests using Rspec. 
 
 I used Postman to test the API behavior. The tests can be found [here](https://documenter.getpostman.com/view/1901975/collection/71B2sNa).
 
-I wrote unit tests using Rspec. 
 
 
 
